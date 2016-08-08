@@ -314,7 +314,7 @@ public class CommonUtil {
 	}
 
 	public static boolean hasToken(Context ct) {
-		String token = SharePrefUtil.getString(ct, "token", "");
+		String token = SpUtil.getString(ct, "token", "");
 		if (TextUtils.isEmpty(token)) {
 			return false;
 		} else {
