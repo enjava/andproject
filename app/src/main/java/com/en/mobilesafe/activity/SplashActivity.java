@@ -298,6 +298,7 @@ public class SplashActivity extends Activity {
         AlphaAnimation alphaAnimation = new AlphaAnimation(0, 1);
         // 淡入淡出设置为2秒
         alphaAnimation.setDuration(2000);
+        //
         sp_root.startAnimation(alphaAnimation);
     }
 
